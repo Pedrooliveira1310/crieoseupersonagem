@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <h2>Hora de Criar o Seu Personagem!</h2>
+
+    <form name="FormConcatena" method="post">
+        <p>Digite o nome: <input type="text" id="nome" name="f_nome">
+
+    </form>
+
+    <select id="classes" size="1">
+        <option value="Guerreiro">Guerreiro⚔️🛡️</option>
+        <option value="Mago">Mago🧙‍♂️✨</option>
+        <option value="Ladino">Ladino🗡️🕶️</option>
+        <option value="Clerigo">Clérigo⛪✨</option>
+        <option value="Barbaro">Bárbaro🪓😡</option>
+        <option value="Paladino">Paladino🛡️✨</option>
+        <option value="Arqueiro">Arqueiro🏹🌲</option>
+        <option value="Bardo">Bardo🎶🎭</option>
+        <option value="Druida">Druida💀⚰️</option>
+        <option value="Monge">Monge🙏📿</option>
+    </select>
+
+    <br>
+    <br>
+    <br>
+
+    <select id="habilidades" size="1" style="width:180px;"><br>
+        <option value="Ataque">Ataque Poderoso 💥⚔️</option>
+        <option value="Furtividade">Furtividade 🕶️👣</option>
+        <option value="Cura">Cura Divina ✨❤️</option>
+        <option value="Magia">Magia Elemental 🔥❄️⚡</option>
+        <option value="Defesa">Defesa Total 🛡️</option>
+        <option value="Persuasão">Persuasão 🗣️🧠</option>
+        <option value="Percepção">Percepção Aguçada 👀🔍</option>
+        <option value="Contra-ataque">Contra-ataque ⚡⚔️</option>
+        <option value="Invocação">Invocação 🧙‍♂️🔮</option>
+        <option value="Fúria Berserker">Fúria Berserker 😡🔥</option>
+    </select>
+
+    <br>
+    <br>
+    <br>
+
+    <button type="button" onclick="fazerPersonagem()">Fazer Personagem!</button>
+
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
